@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AZ850-x
+D American Zettler, Microminiature Polarised Dual Pole Relay
+K Miniature Polarised Relay Dual Pole
+F http://www.azettler.com/pdfs/az850.pdf
+$ENDCMP
+#
+$CMP AZ850P1-x
+D American Zettler, Microminiature Polarised Dual Pole Relay Bistable
+K Miniature Polarised Relay Dual Pole Bistable
+F http://www.azettler.com/pdfs/az850.pdf
+$ENDCMP
+#
+$CMP DIP05-1C90-51D
+D FINDER 32.21-x000, Single Pole Relay, 6A
+K Single Pole Relay
+F https://gfinder.findernet.com/assets/Series/355/S32EN.pdf
+$ENDCMP
+#
+#End Doc Library

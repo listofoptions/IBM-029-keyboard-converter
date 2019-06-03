@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name converter-rescue)(type Legacy)(uri ${KIPRJMOD}/converter-rescue.lib)(options "")(descr ""))
+  (lib (name sstw003a0a41z)(type Legacy)(uri ${KIPRJMOD}/sstw003a0a41z.lib)(options "")(descr ""))
+  (lib (name DIP05-1C90-51D)(type Legacy)(uri ${KIPRJMOD}/DIP05-1C90-51D.lib)(options "")(descr ""))
+  (lib (name teensy)(type Legacy)(uri ${KIPRJMOD}/TEENSY/teensy.lib)(options "")(descr ""))
+)
