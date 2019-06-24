@@ -30,7 +30,7 @@ L converter-rescue:Conn_01x16_Female J2
 U 1 1 5C132B7A
 P 2560 8360
 F 0 "J2" H 2560 9160 50  0000 C CNN
-F 1 "???" H 2560 7460 50  0000 C CNN
+F 1 "B08" H 2560 7460 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x16_Pitch2.54mm" H 2560 8360 50  0001 C CNN
 F 3 "" H 2560 8360 50  0001 C CNN
 	1    2560 8360
@@ -57,20 +57,6 @@ NoConn ~ 2760 8360
 NoConn ~ 2760 8260
 NoConn ~ 2760 6310
 $Comp
-L converter-rescue:Conn_01x16_Female J4
-U 1 1 5C13C151
-P 6120 1950
-F 0 "J4" H 6120 2750 50  0000 C CNN
-F 1 "A02" H 6120 1050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x16_Pitch2.54mm" H 6120 1950 50  0001 C CNN
-F 3 "" H 6120 1950 50  0001 C CNN
-	1    6120 1950
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 6320 2250
-NoConn ~ 6320 2550
-NoConn ~ 6320 2650
-$Comp
 L converter-rescue:Conn_01x16_Female J5
 U 1 1 5C13D305
 P 6580 4820
@@ -81,22 +67,6 @@ F 3 "" H 6580 4820 50  0001 C CNN
 	1    6580 4820
 	-1   0    0    -1  
 $EndComp
-$Comp
-L converter-rescue:Conn_01x16_Female J1
-U 1 1 5C13E2F4
-P 5990 7690
-F 0 "J1" H 5990 8490 50  0000 C CNN
-F 1 "A04" H 5990 6790 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x16_Pitch2.54mm" H 5990 7690 50  0001 C CNN
-F 3 "" H 5990 7690 50  0001 C CNN
-	1    5990 7690
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 6190 8090
-NoConn ~ 6320 2450
-NoConn ~ 6320 2150
-NoConn ~ 6320 2050
-NoConn ~ 6320 1950
 $Comp
 L power:GNDD #PWR01
 U 1 1 5C162AAB
@@ -156,39 +126,6 @@ F 3 "" H 690 4730 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VD #PWR05
-U 1 1 5C16A060
-P 6770 1350
-F 0 "#PWR05" H 6770 1200 50  0001 C CNN
-F 1 "+5VD" H 6770 1490 50  0000 C CNN
-F 2 "" H 6770 1350 50  0001 C CNN
-F 3 "" H 6770 1350 50  0001 C CNN
-	1    6770 1350
-	1    0    0    -1  
-$EndComp
-Text Label 6190 7290 0    60   ~ 0
-C0
-Text Label 6190 7390 0    60   ~ 0
-C1
-Text Label 6190 7490 0    60   ~ 0
-C2
-Text Label 6190 7590 0    60   ~ 0
-C3
-Text Label 6190 7690 0    60   ~ 0
-C4
-Text Label 6190 7790 0    60   ~ 0
-C5
-Text Label 6190 7890 0    60   ~ 0
-C6
-Text Label 6190 7990 0    60   ~ 0
-C7
-Text Label 6190 8190 0    60   ~ 0
-C9
-Text Label 6190 7190 0    60   ~ 0
-C11
-Text Label 6190 7090 0    60   ~ 0
-C12
-$Comp
 L Device:D_ALT D1
 U 1 1 5C16B8FA
 P 7310 5780
@@ -199,8 +136,6 @@ F 3 "" H 7310 5780 50  0001 C CNN
 	1    7310 5780
 	0    1    1    0   
 $EndComp
-Text Label 6320 2750 0    60   ~ 0
-REL
 $Comp
 L power:+5VD #PWR06
 U 1 1 5C16FC7C
@@ -271,31 +206,8 @@ Text Label 2880 2300 0    60   ~ 0
 C11
 Text Label 1480 910  2    60   ~ 0
 C12
-$Comp
-L power:+5VD #PWR010
-U 1 1 5C1846C7
-P 7040 8390
-F 0 "#PWR010" H 7040 8240 50  0001 C CNN
-F 1 "+5VD" H 7040 8530 50  0000 C CNN
-F 2 "" H 7040 8390 50  0001 C CNN
-F 3 "" H 7040 8390 50  0001 C CNN
-	1    7040 8390
-	1    0    0    -1  
-$EndComp
 Text Label 6780 4120 0    60   ~ 0
 RESTORE
-Text Label 6320 1250 0    60   ~ 0
-SKIP
-Text Label 6320 1450 0    60   ~ 0
-LEFT_ZERO
-Text Label 6320 1550 0    60   ~ 0
-MC
-Text Label 6320 1650 0    60   ~ 0
-AUX_DUP
-Text Label 6320 1750 0    60   ~ 0
-BAIL_8
-Text Label 6320 1850 0    60   ~ 0
-PROG_1
 Text Label 6780 4620 0    60   ~ 0
 FEED
 Text Label 6780 4720 0    60   ~ 0
@@ -310,14 +222,6 @@ Text Label 6780 5320 0    60   ~ 0
 ALPHA
 Text Label 6780 5420 0    60   ~ 0
 NUM+MULTI_I
-Text Label 6190 8290 0    60   ~ 0
-ERROR_RESET
-Text Label 6190 8490 0    60   ~ 0
-BAIL_9
-Text Label 6190 6990 0    60   ~ 0
-SPACE
-Text Label 6320 2350 0    60   ~ 0
-DASH_SKIP
 Text Label 2880 1400 0    60   ~ 0
 SKIP
 Text Label 1480 1400 2    60   ~ 0
@@ -353,21 +257,10 @@ BAIL_9
 Text Label 1480 810  2    60   ~ 0
 SPACE
 NoConn ~ 2880 3300
-Text Label 7630 7210 2    60   ~ 0
+Text Label 7430 7210 2    60   ~ 0
 RESTORE_MAGS
 Text Label 1480 2100 2    60   ~ 0
 RESTORE_MAGS
-$Comp
-L power:+48V #PWR011
-U 1 1 5C197B69
-P 1140 9750
-F 0 "#PWR011" H 1140 9600 50  0001 C CNN
-F 1 "+48V" H 1140 9890 50  0000 C CNN
-F 2 "" H 1140 9750 50  0001 C CNN
-F 3 "" H 1140 9750 50  0001 C CNN
-	1    1140 9750
-	1    0    0    -1  
-$EndComp
 $Comp
 L converter-rescue:Conn_01x02 J6
 U 1 1 5C1A13FB
@@ -400,10 +293,6 @@ Connection ~ 3360 5310
 Wire Wire Line
 	3360 5050 3360 5310
 Wire Wire Line
-	1000 9750 1140 9750
-Wire Wire Line
-	7040 8390 6190 8390
-Wire Wire Line
 	6780 5120 7230 5120
 Connection ~ 7230 5020
 Wire Wire Line
@@ -414,8 +303,6 @@ Wire Wire Line
 	7230 4520 6780 4520
 Wire Wire Line
 	7430 4220 6780 4220
-Wire Wire Line
-	6770 1350 6320 1350
 Wire Wire Line
 	2760 5310 3360 5310
 Wire Wire Line
@@ -441,7 +328,7 @@ INT_PCH
 Text Label 1480 2200 2    60   ~ 0
 REL
 Text Notes 3820 9130 0    60   ~ 0
-??? : UNKOWN POSITION FRONT PANEL CONNECTOR\nA01 : FRONT PANEL CONNECTOR\nA02-A04 : KEYBOARD PANEL CONNECTORS
+B08 : SECOND FRONT PANEL CONNECTOR\nA01 : FRONT PANEL CONNECTOR\nA02-A04 : KEYBOARD PANEL CONNECTORS
 $Comp
 L converter-rescue:Conn_01x09 J8
 U 1 1 5C1D8E12
@@ -491,33 +378,31 @@ Text Label 1750 9950 2    60   ~ 0
 Text Label 1750 9850 2    60   ~ 0
 -VIN
 Wire Wire Line
-	2950 9850 3310 9850
-Wire Wire Line
-	2950 9750 3460 9750
+	2950 9740 3460 9740
 Text Label 2950 9750 0    60   ~ 0
 +VOUT
-Text Label 2950 9850 0    60   ~ 0
+Text Label 2950 9840 0    60   ~ 0
 -VOUT
 $Comp
 L power:GNDD #PWR014
 U 1 1 5C1DF06B
-P 3460 9850
-F 0 "#PWR014" H 3460 9600 50  0001 C CNN
-F 1 "GNDD" H 3460 9725 50  0000 C CNN
-F 2 "" H 3460 9850 50  0001 C CNN
-F 3 "" H 3460 9850 50  0001 C CNN
-	1    3460 9850
+P 3460 9840
+F 0 "#PWR014" H 3460 9590 50  0001 C CNN
+F 1 "GNDD" H 3460 9715 50  0000 C CNN
+F 2 "" H 3460 9840 50  0001 C CNN
+F 3 "" H 3460 9840 50  0001 C CNN
+	1    3460 9840
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5VD #PWR015
 U 1 1 5C1DF442
-P 3460 9750
-F 0 "#PWR015" H 3460 9600 50  0001 C CNN
-F 1 "+5VD" H 3460 9890 50  0000 C CNN
-F 2 "" H 3460 9750 50  0001 C CNN
-F 3 "" H 3460 9750 50  0001 C CNN
-	1    3460 9750
+P 3460 9740
+F 0 "#PWR015" H 3460 9590 50  0001 C CNN
+F 1 "+5VD" H 3460 9880 50  0000 C CNN
+F 2 "" H 3460 9740 50  0001 C CNN
+F 3 "" H 3460 9740 50  0001 C CNN
+	1    3460 9740
 	1    0    0    -1  
 $EndComp
 Text Notes 1980 4240 0    60   ~ 0
@@ -527,13 +412,7 @@ RESET
 Wire Wire Line
 	810  4590 810  4830
 Wire Wire Line
-	1000 9950 1140 9950
-Wire Wire Line
-	1350 9950 1350 9850
-Wire Wire Line
 	1350 9850 1750 9850
-Connection ~ 1350 9950
-Connection ~ 1140 9750
 $Comp
 L converter-rescue:POT_TRIM RV1
 U 1 1 5CB222EE
@@ -547,9 +426,6 @@ F 3 "" H 3450 10200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3450 10050 3310 10050
-Wire Wire Line
-	3310 10050 3310 9850
-Connection ~ 3310 9850
 Wire Wire Line
 	3300 10200 2950 10200
 Wire Wire Line
@@ -625,19 +501,6 @@ F 3 "" H 1020 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1020 3400 1480 3400
-$Comp
-L converter-rescue:Screw_Terminal_01x02 J7
-U 1 1 5CB2A17F
-P 800 9750
-F 0 "J7" H 800 9850 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" V 910 9700 50  0000 C CNN
-F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_2pol" H 800 9750 50  0001 C CNN
-F 3 "" H 800 9750 50  0001 C CNN
-	1    800  9750
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 9850 1000 9950
 Wire Wire Line
 	7000 5930 7080 5930
 $Comp
@@ -657,24 +520,10 @@ Connection ~ 7080 5930
 NoConn ~ 2880 1300
 NoConn ~ 1480 3500
 $Comp
-L power:-48V #PWR11
-U 1 1 5CB40192
-P 1140 9970
-F 0 "#PWR11" H 1140 10070 50  0001 C CNN
-F 1 "-48V" H 1140 10120 50  0000 C CNN
-F 2 "" H 1140 9970 50  0001 C CNN
-F 3 "" H 1140 9970 50  0001 C CNN
-	1    1140 9970
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1140 9970 1140 9950
-Connection ~ 1140 9950
-$Comp
-L power:-48V #PWR13
+L power:-48V #PWR0105
 U 1 1 5CB40424
 P 6780 5620
-F 0 "#PWR13" H 6780 5720 50  0001 C CNN
+F 0 "#PWR0105" H 6780 5720 50  0001 C CNN
 F 1 "-48V" H 6780 5770 50  0000 C CNN
 F 2 "" H 6780 5620 50  0001 C CNN
 F 3 "" H 6780 5620 50  0001 C CNN
@@ -698,816 +547,6 @@ Text Label 1480 2400 2    60   ~ 0
 R0
 Text Label 1480 2500 2    60   ~ 0
 R1
-$Comp
-L converter-rescue:Conn_01x16_Male J?
-U 1 1 5CB44204
-P 2190 5910
-F 0 "J?" H 2190 6710 50  0000 C CNN
-F 1 "A01" H 2190 5010 50  0000 C CNN
-F 2 "" H 2190 5910 50  0001 C CNN
-F 3 "" H 2190 5910 50  0001 C CNN
-	1    2190 5910
-	-1   0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB4420B
-P 1080 5210
-F 0 "SW?" H 1080 5335 50  0000 C CNN
-F 1 "AUTO FEED" H 1080 5110 50  0000 L CNN
-F 2 "" H 1080 5210 50  0001 C CNN
-F 3 "" H 1080 5210 50  0001 C CNN
-	1    1080 5210
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPDT SW?
-U 1 1 5CB44212
-P 1070 5590
-F 0 "SW?" H 1070 5760 50  0000 C CNN
-F 1 "PROG SEL" H 1070 5390 50  0000 L CNN
-F 2 "" H 1070 5590 50  0001 C CNN
-F 3 "" H 1070 5590 50  0001 C CNN
-	1    1070 5590
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_DPST SW?
-U 1 1 5CB44219
-P 1070 6110
-F 0 "SW?" H 1070 6310 50  0000 C CNN
-F 1 "AUTO DUP" H 1070 5910 50  0000 L CNN
-F 2 "" H 1070 6110 50  0001 C CNN
-F 3 "" H 1070 6110 50  0001 C CNN
-	1    1070 6110
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB44220
-P 1070 6550
-F 0 "SW?" H 1070 6675 50  0000 C CNN
-F 1 "CLEAR" H 1070 6450 50  0000 L CNN
-F 2 "" H 1070 6550 50  0001 C CNN
-F 3 "" H 1070 6550 50  0001 C CNN
-	1    1070 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPDT SW?
-U 1 1 5CB44227
-P 1070 6940
-F 0 "SW?" H 1070 7110 50  0000 C CNN
-F 1 "PRINT" H 1070 6740 50  0000 L CNN
-F 2 "" H 1070 6940 50  0001 C CNN
-F 3 "" H 1070 6940 50  0001 C CNN
-	1    1070 6940
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPDT SW?
-U 1 1 5CB4422E
-P 1070 7420
-F 0 "SW?" H 1070 7590 50  0000 C CNN
-F 1 "LZ PRINT" H 1070 7220 50  0000 L CNN
-F 2 "" H 1070 7420 50  0001 C CNN
-F 3 "" H 1070 7420 50  0001 C CNN
-	1    1070 7420
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:Conn_01x16_Male J?
-U 1 1 5CB44235
-P 2190 8360
-F 0 "J?" H 2190 9160 50  0000 C CNN
-F 1 "???" H 2190 7460 50  0000 C CNN
-F 2 "" H 2190 8360 50  0001 C CNN
-F 3 "" H 2190 8360 50  0001 C CNN
-	1    2190 8360
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 1990 6710
-NoConn ~ 1990 6610
-NoConn ~ 1990 6510
-NoConn ~ 1990 7660
-NoConn ~ 1990 7760
-NoConn ~ 1990 7860
-NoConn ~ 1990 7960
-NoConn ~ 1990 9160
-NoConn ~ 1990 9060
-NoConn ~ 1990 8960
-NoConn ~ 1990 8860
-NoConn ~ 1990 8660
-NoConn ~ 1990 8560
-NoConn ~ 1990 8460
-NoConn ~ 1270 7520
-$Comp
-L converter-rescue:SW_DPST SW?
-U 1 1 5CB4424B
-P 1070 8170
-F 0 "SW?" H 1070 8370 50  0000 C CNN
-F 1 "INTERPRET PUNCH" H 1070 7970 50  0000 L CNN
-F 2 "" H 1070 8170 50  0001 C CNN
-F 3 "" H 1070 8170 50  0001 C CNN
-	1    1070 8170
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:Conn_01x16_Male J?
-U 1 1 5CB44252
-P 5750 1950
-F 0 "J?" H 5750 2750 50  0000 C CNN
-F 1 "A02" H 5750 1050 50  0000 C CNN
-F 2 "" H 5750 1950 50  0001 C CNN
-F 3 "" H 5750 1950 50  0001 C CNN
-	1    5750 1950
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 5550 2650
-NoConn ~ 5550 2550
-NoConn ~ 5550 2250
-$Comp
-L converter-rescue:Conn_01x16_Male J?
-U 1 1 5CB4425C
-P 5750 4820
-F 0 "J?" H 5750 5620 50  0000 C CNN
-F 1 "A03" H 5750 3920 50  0000 C CNN
-F 2 "" H 5750 4820 50  0001 C CNN
-F 3 "" H 5750 4820 50  0001 C CNN
-	1    5750 4820
-	-1   0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:Conn_01x16_Male J?
-U 1 1 5CB44263
-P 5750 7690
-F 0 "J?" H 5750 8490 50  0000 C CNN
-F 1 "A04" H 5750 6790 50  0000 C CNN
-F 2 "" H 5750 7690 50  0001 C CNN
-F 3 "" H 5750 7690 50  0001 C CNN
-	1    5750 7690
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 5550 8090
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB4426B
-P 4290 1250
-F 0 "SW?" H 4290 1375 50  0000 C CNN
-F 1 "SKIP" H 4290 1150 50  0000 L CNN
-F 2 "" H 4290 1250 50  0001 C CNN
-F 3 "" H 4290 1250 50  0001 C CNN
-	1    4290 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB44272
-P 4290 1590
-F 0 "SW?" H 4290 1715 50  0000 C CNN
-F 1 "LEFT ZERO" H 4290 1490 50  0000 L CNN
-F 2 "" H 4290 1590 50  0001 C CNN
-F 3 "" H 4290 1590 50  0001 C CNN
-	1    4290 1590
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB44279
-P 4290 1940
-F 0 "SW?" H 4290 2065 50  0000 C CNN
-F 1 "MC" H 4290 1840 50  0000 L CNN
-F 2 "" H 4290 1940 50  0001 C CNN
-F 3 "" H 4290 1940 50  0001 C CNN
-	1    4290 1940
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB44280
-P 4290 2290
-F 0 "SW?" H 4290 2415 50  0000 C CNN
-F 1 "AUX DUP" H 4290 2190 50  0000 L CNN
-F 2 "" H 4290 2290 50  0001 C CNN
-F 3 "" H 4290 2290 50  0001 C CNN
-	1    4290 2290
-	1    0    0    -1  
-$EndComp
-NoConn ~ 5550 1950
-NoConn ~ 5550 2050
-NoConn ~ 5550 2150
-NoConn ~ 5550 2450
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB4428B
-P 4290 2630
-F 0 "SW?" H 4290 2755 50  0000 C CNN
-F 1 "BAIL 8" H 4290 2530 50  0000 L CNN
-F 2 "" H 4290 2630 50  0001 C CNN
-F 3 "" H 4290 2630 50  0001 C CNN
-	1    4290 2630
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB44292
-P 4290 2970
-F 0 "SW?" H 4290 3095 50  0000 C CNN
-F 1 "PROG 1" H 4290 2870 50  0000 L CNN
-F 2 "" H 4290 2970 50  0001 C CNN
-F 3 "" H 4290 2970 50  0001 C CNN
-	1    4290 2970
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB44299
-P 4290 3310
-F 0 "SW?" H 4290 3435 50  0000 C CNN
-F 1 "LATCH 30" H 4290 3210 50  0000 L CNN
-F 2 "" H 4290 3310 50  0001 C CNN
-F 3 "" H 4290 3310 50  0001 C CNN
-	1    4290 3310
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB442A0
-P 4290 3650
-F 0 "SW?" H 4290 3775 50  0000 C CNN
-F 1 "REL" H 4290 3550 50  0000 L CNN
-F 2 "" H 4290 3650 50  0001 C CNN
-F 3 "" H 4290 3650 50  0001 C CNN
-	1    4290 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB442A7
-P 4290 4120
-F 0 "SW?" H 4290 4245 50  0000 C CNN
-F 1 "RESTORE BAIL CONTACT" H 4290 4020 50  0000 L CNN
-F 2 "" H 4290 4120 50  0001 C CNN
-F 3 "" H 4290 4120 50  0001 C CNN
-	1    4290 4120
-	1    0    0    -1  
-$EndComp
-Text Label 4830 3890 0    60   ~ 0
-VCOMMON
-Text Label 4840 4420 0    60   ~ 0
-VNUMERIC
-Text Label 4840 4320 0    60   ~ 0
-VALPHA
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB442B1
-P 4290 4640
-F 0 "SW?" H 4290 4765 50  0000 C CNN
-F 1 "FEED" H 4290 4540 50  0000 L CNN
-F 2 "" H 4290 4640 50  0001 C CNN
-F 3 "" H 4290 4640 50  0001 C CNN
-	1    4290 4640
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB442B8
-P 4290 4990
-F 0 "SW?" H 4290 5115 50  0000 C CNN
-F 1 "REGISTER LATCH" H 4290 4890 50  0000 L CNN
-F 2 "" H 4290 4990 50  0001 C CNN
-F 3 "" H 4290 4990 50  0001 C CNN
-	1    4290 4990
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB442BF
-P 4290 5330
-F 0 "SW?" H 4290 5455 50  0000 C CNN
-F 1 "PROG 2" H 4290 5230 50  0000 L CNN
-F 2 "" H 4290 5330 50  0001 C CNN
-F 3 "" H 4290 5330 50  0001 C CNN
-	1    4290 5330
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB442C6
-P 4290 5670
-F 0 "SW?" H 4290 5795 50  0000 C CNN
-F 1 "DUP" H 4290 5570 50  0000 L CNN
-F 2 "" H 4290 5670 50  0001 C CNN
-F 3 "" H 4290 5670 50  0001 C CNN
-	1    4290 5670
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB442CD
-P 4290 6010
-F 0 "SW?" H 4290 6135 50  0000 C CNN
-F 1 "MULTI PCH (OUTBOUND)" H 4290 5910 50  0000 L CNN
-F 2 "" H 4290 6010 50  0001 C CNN
-F 3 "" H 4290 6010 50  0001 C CNN
-	1    4290 6010
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB442D4
-P 4290 6400
-F 0 "SW?" H 4290 6525 50  0000 C CNN
-F 1 "ALPHA" H 4290 6300 50  0000 L CNN
-F 2 "" H 4290 6400 50  0001 C CNN
-F 3 "" H 4290 6400 50  0001 C CNN
-	1    4290 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPDT SW?
-U 1 1 5CB442DB
-P 4290 6740
-F 0 "SW?" H 4290 6910 50  0000 C CNN
-F 1 "NUMERIC" H 4290 6540 50  0000 L CNN
-F 2 "" H 4290 6740 50  0001 C CNN
-F 3 "" H 4290 6740 50  0001 C CNN
-	1    4290 6740
-	1    0    0    -1  
-$EndComp
-NoConn ~ 4490 6840
-$Comp
-L converter-rescue:SW_SPDT SW?
-U 1 1 5CB442E3
-P 4290 7230
-F 0 "SW?" H 4290 7400 50  0000 C CNN
-F 1 "MULTI PCH (INBOARD)" H 4290 7030 50  0000 L CNN
-F 2 "" H 4290 7230 50  0001 C CNN
-F 3 "" H 4290 7230 50  0001 C CNN
-	1    4290 7230
-	1    0    0    -1  
-$EndComp
-NoConn ~ 4490 7330
-$Comp
-L Device:Electromagnetic_Actor L?
-U 1 1 5CB442EB
-P 6030 6040
-F 0 "L?" H 6080 6190 50  0000 L CNN
-F 1 "RIGHT" H 6080 5990 50  0000 L CNN
-F 2 "" V 6005 6140 50  0001 C CNN
-F 3 "" V 6005 6140 50  0001 C CNN
-	1    6030 6040
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Electromagnetic_Actor L?
-U 1 1 5CB442F2
-P 5750 6040
-F 0 "L?" H 5800 6190 50  0000 L CNN
-F 1 "LEFT" H 5800 5990 50  0000 L CNN
-F 2 "" V 5725 6140 50  0001 C CNN
-F 3 "" V 5725 6140 50  0001 C CNN
-	1    5750 6040
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB442F9
-P 4290 7670
-F 0 "SW?" H 4290 7795 50  0000 C CNN
-F 1 "SPACE LATCH" H 4290 7570 50  0000 L CNN
-F 2 "" H 4290 7670 50  0001 C CNN
-F 3 "" H 4290 7670 50  0001 C CNN
-	1    4290 7670
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPST SW?
-U 1 1 5CB44300
-P 4290 8490
-F 0 "SW?" H 4290 8615 50  0000 C CNN
-F 1 "BAIL 9" H 4290 8390 50  0000 L CNN
-F 2 "" H 4290 8490 50  0001 C CNN
-F 3 "" H 4290 8490 50  0001 C CNN
-	1    4290 8490
-	1    0    0    -1  
-$EndComp
-$Comp
-L converter-rescue:SW_SPDT SW?
-U 1 1 5CB44307
-P 4290 8070
-F 0 "SW?" H 4290 8240 50  0000 C CNN
-F 1 "ERROR RESET" H 4290 7870 50  0000 L CNN
-F 2 "" H 4290 8070 50  0001 C CNN
-F 3 "" H 4290 8070 50  0001 C CNN
-	1    4290 8070
-	1    0    0    1   
-$EndComp
-Text Notes 4580 8060 0    60   ~ 0
-NOTE 2
-Text Label 5550 7290 2    60   ~ 0
-B0
-Text Label 5550 7390 2    60   ~ 0
-B1
-Text Label 5550 7490 2    60   ~ 0
-B2
-Text Label 5550 7590 2    60   ~ 0
-B3
-Text Label 5550 7690 2    60   ~ 0
-B4
-Text Label 5550 7790 2    60   ~ 0
-B5
-Text Label 5550 7890 2    60   ~ 0
-B6
-Text Label 5550 7990 2    60   ~ 0
-B7
-Text Label 5550 7090 2    60   ~ 0
-B12
-Text Label 5550 7190 2    60   ~ 0
-B11
-Text Label 5550 8190 2    60   ~ 0
-B9
-Text Notes 5550 8090 2    60   ~ 0
-NOTE 3
-Text Notes 5480 6260 0    60   ~ 0
-KEYBOARD RESTORE MAGNETS
-Wire Wire Line
-	4650 6640 4490 6640
-Wire Wire Line
-	4650 7010 4650 6640
-Wire Wire Line
-	4980 6640 5370 6640
-Wire Wire Line
-	4980 7130 4980 6640
-Wire Wire Line
-	4490 7130 4980 7130
-Connection ~ 3730 3950
-Wire Wire Line
-	4670 3950 3730 3950
-Connection ~ 4670 4120
-Wire Wire Line
-	4670 4120 4670 3950
-Wire Wire Line
-	3730 2970 4090 2970
-Wire Wire Line
-	3730 2970 3730 3950
-Wire Wire Line
-	3730 5330 4090 5330
-Connection ~ 5460 6140
-Wire Wire Line
-	5460 6720 5240 6720
-Wire Wire Line
-	5240 6720 5240 7970
-Wire Wire Line
-	5240 7970 4490 7970
-Wire Wire Line
-	3820 3650 3820 4120
-Wire Wire Line
-	4090 3650 3820 3650
-Wire Wire Line
-	4090 7920 5140 7920
-Wire Wire Line
-	4090 8070 4090 7920
-Wire Wire Line
-	5140 8290 5550 8290
-Wire Wire Line
-	5140 7920 5140 8290
-Connection ~ 4490 8290
-Wire Wire Line
-	3820 8290 4490 8290
-Wire Wire Line
-	4490 8390 5550 8390
-Wire Wire Line
-	4490 8170 4490 8290
-Connection ~ 3820 4120
-Wire Wire Line
-	3820 4120 4090 4120
-Connection ~ 3960 4420
-Wire Wire Line
-	3960 8490 4090 8490
-Wire Wire Line
-	4490 8490 5550 8490
-Wire Wire Line
-	5140 6990 5550 6990
-Wire Wire Line
-	5140 7670 5140 6990
-Wire Wire Line
-	4490 7670 5140 7670
-Connection ~ 4030 3890
-Wire Wire Line
-	4030 7670 4090 7670
-Connection ~ 5750 6140
-Wire Wire Line
-	5460 5520 5550 5520
-Wire Wire Line
-	5460 5520 5460 6140
-Connection ~ 5750 5840
-Wire Wire Line
-	5550 5840 5550 5620
-Wire Wire Line
-	5460 6140 5750 6140
-Wire Wire Line
-	5550 5840 5750 5840
-Wire Wire Line
-	5370 5420 5550 5420
-Wire Wire Line
-	5370 6640 5370 5420
-Wire Wire Line
-	4090 7010 4650 7010
-Wire Wire Line
-	4090 7230 4090 7010
-Connection ~ 4090 6400
-Wire Wire Line
-	5290 6400 4490 6400
-Wire Wire Line
-	5290 5320 5290 6400
-Wire Wire Line
-	5550 5320 5290 5320
-Connection ~ 5230 5020
-Wire Wire Line
-	4090 6180 4090 6400
-Wire Wire Line
-	5230 6180 4090 6180
-Wire Wire Line
-	5230 5020 5230 6180
-Wire Wire Line
-	5170 5220 5550 5220
-Wire Wire Line
-	5170 6010 5170 5220
-Wire Wire Line
-	4490 6010 5170 6010
-Wire Wire Line
-	5110 5120 5550 5120
-Wire Wire Line
-	5110 5830 5110 5120
-Wire Wire Line
-	4080 5830 5110 5830
-Wire Wire Line
-	4080 6010 4080 5830
-Wire Wire Line
-	5050 5020 5230 5020
-Wire Wire Line
-	5050 5670 5050 5020
-Wire Wire Line
-	4490 5670 5050 5670
-Wire Wire Line
-	4990 4920 5550 4920
-Wire Wire Line
-	4990 5480 4990 4920
-Wire Wire Line
-	4090 5480 4990 5480
-Wire Wire Line
-	4090 5670 4090 5480
-Wire Wire Line
-	4930 4820 5550 4820
-Wire Wire Line
-	4930 5330 4930 4820
-Wire Wire Line
-	4490 5330 4930 5330
-Wire Wire Line
-	4490 4720 5550 4720
-Wire Wire Line
-	4490 4990 4490 4720
-Wire Wire Line
-	4490 4620 5550 4620
-Wire Wire Line
-	4490 4640 4490 4620
-Connection ~ 4090 4640
-Wire Wire Line
-	5550 4460 5550 4520
-Wire Wire Line
-	4090 4460 5550 4460
-Wire Wire Line
-	4090 4460 4090 4640
-Wire Wire Line
-	3960 3310 3960 4420
-Connection ~ 4030 1940
-Wire Wire Line
-	4030 1250 4030 1940
-Wire Wire Line
-	5220 3890 5220 4220
-Wire Wire Line
-	4030 3890 5220 3890
-Wire Wire Line
-	5220 4220 5550 4220
-Wire Wire Line
-	5550 4320 4830 4320
-Wire Wire Line
-	3960 3310 4090 3310
-Wire Wire Line
-	3960 4420 5550 4420
-Wire Wire Line
-	4490 4120 4670 4120
-Connection ~ 4090 1940
-Wire Wire Line
-	4030 1940 4090 1940
-Wire Wire Line
-	4090 1250 4030 1250
-Connection ~ 4090 2290
-Wire Wire Line
-	4090 1940 4090 2290
-Wire Wire Line
-	5070 2750 5550 2750
-Wire Wire Line
-	5070 3650 5070 2750
-Wire Wire Line
-	4490 3650 5070 3650
-Wire Wire Line
-	4980 2350 5550 2350
-Wire Wire Line
-	4980 3310 4980 2350
-Wire Wire Line
-	4490 3310 4980 3310
-Wire Wire Line
-	4900 1850 5550 1850
-Wire Wire Line
-	4900 2970 4900 1850
-Wire Wire Line
-	4490 2970 4900 2970
-Wire Wire Line
-	4830 1750 5550 1750
-Wire Wire Line
-	4830 1870 4830 1750
-Wire Wire Line
-	4670 1870 4830 1870
-Wire Wire Line
-	4670 2630 4670 1870
-Wire Wire Line
-	4490 2630 4670 2630
-Wire Wire Line
-	4760 1650 5550 1650
-Wire Wire Line
-	4760 1820 4760 1650
-Wire Wire Line
-	4540 1820 4760 1820
-Wire Wire Line
-	4540 2290 4540 1820
-Wire Wire Line
-	4490 2290 4540 2290
-Wire Wire Line
-	4710 1550 5550 1550
-Wire Wire Line
-	4710 1770 4710 1550
-Wire Wire Line
-	4490 1770 4710 1770
-Wire Wire Line
-	4490 1940 4490 1770
-Wire Wire Line
-	4490 1250 5550 1250
-Wire Wire Line
-	4510 1450 5550 1450
-Wire Wire Line
-	4510 1590 4510 1450
-Wire Wire Line
-	4490 1590 4510 1590
-Wire Wire Line
-	4510 1350 5550 1350
-Wire Wire Line
-	4510 1410 4510 1350
-Wire Wire Line
-	4090 1410 4510 1410
-Wire Wire Line
-	4090 1590 4090 1410
-Wire Wire Line
-	1990 8310 1990 8360
-Wire Wire Line
-	1570 8310 1990 8310
-Wire Wire Line
-	1570 8270 1570 8310
-Wire Wire Line
-	1270 8270 1570 8270
-Wire Wire Line
-	1650 8260 1990 8260
-Wire Wire Line
-	1650 8160 1650 8260
-Wire Wire Line
-	870  8160 1650 8160
-Wire Wire Line
-	870  8270 870  8160
-Wire Wire Line
-	1730 8160 1990 8160
-Wire Wire Line
-	1730 8070 1730 8160
-Wire Wire Line
-	1270 8070 1730 8070
-Wire Wire Line
-	1790 8060 1990 8060
-Wire Wire Line
-	1790 7910 1790 8060
-Wire Wire Line
-	870  7910 1790 7910
-Wire Wire Line
-	870  8070 870  7910
-Wire Wire Line
-	1690 5310 1990 5310
-Wire Wire Line
-	1690 5370 1690 5310
-Wire Wire Line
-	1550 7040 1270 7040
-Wire Wire Line
-	1550 7200 1550 7040
-Connection ~ 840  7420
-Wire Wire Line
-	840  8760 1990 8760
-Wire Wire Line
-	840  7420 870  7420
-Wire Wire Line
-	840  7200 840  7420
-Wire Wire Line
-	840  6940 870  6940
-Wire Wire Line
-	840  6710 840  6940
-Wire Wire Line
-	840  6550 870  6550
-Wire Wire Line
-	840  6380 840  6550
-Wire Wire Line
-	840  6210 870  6210
-Wire Wire Line
-	840  6110 840  6210
-Wire Wire Line
-	1280 5210 1990 5210
-Wire Wire Line
-	840  5370 1690 5370
-Wire Wire Line
-	840  5210 840  5370
-Wire Wire Line
-	840  5210 880  5210
-Wire Wire Line
-	1270 5490 1450 5490
-Wire Wire Line
-	1450 5490 1450 5410
-Wire Wire Line
-	1450 5410 1990 5410
-Wire Wire Line
-	1270 5690 1450 5690
-Wire Wire Line
-	1450 5690 1450 5510
-Wire Wire Line
-	1450 5510 1990 5510
-Wire Wire Line
-	840  5590 870  5590
-Connection ~ 840  5370
-Wire Wire Line
-	870  6010 840  6010
-Wire Wire Line
-	840  6010 840  5860
-Wire Wire Line
-	840  5860 1500 5860
-Wire Wire Line
-	1500 5860 1500 5610
-Wire Wire Line
-	1500 5610 1990 5610
-Wire Wire Line
-	1270 6010 1530 6010
-Wire Wire Line
-	1530 6010 1530 5710
-Wire Wire Line
-	1530 5710 1990 5710
-Wire Wire Line
-	840  6110 1580 6110
-Wire Wire Line
-	1580 6110 1580 5810
-Wire Wire Line
-	1580 5810 1990 5810
-Wire Wire Line
-	1270 6210 1610 6210
-Wire Wire Line
-	1610 6210 1610 5910
-Wire Wire Line
-	1610 5910 1990 5910
-Wire Wire Line
-	1270 6550 1700 6550
-Wire Wire Line
-	1700 6550 1700 6110
-Wire Wire Line
-	1700 6110 1990 6110
-Wire Wire Line
-	840  6380 1660 6380
-Wire Wire Line
-	1660 6380 1660 6010
-Wire Wire Line
-	1660 6010 1990 6010
-Wire Wire Line
-	840  6710 1750 6710
-Wire Wire Line
-	1750 6710 1750 6210
-Wire Wire Line
-	1750 6210 1990 6210
-Wire Wire Line
-	1270 6840 1790 6840
-Wire Wire Line
-	1790 6840 1790 6310
-Wire Wire Line
-	1790 6310 1990 6310
-Wire Wire Line
-	840  7200 1550 7200
-Wire Wire Line
-	1270 7320 1830 7320
-Wire Wire Line
-	1830 7320 1830 6410
-Wire Wire Line
-	1830 6410 1990 6410
 Wire Wire Line
 	7630 7210 7830 7210
 Wire Wire Line
@@ -1525,10 +564,10 @@ MOSI
 Text Label 2880 3100 0    60   ~ 0
 IRQ
 $Comp
-L power:GNDD #PWR?
+L power:GNDD #PWR0101
 U 1 1 5CB4C51A
 P 3170 3200
-F 0 "#PWR?" H 3170 2950 50  0001 C CNN
+F 0 "#PWR0101" H 3170 2950 50  0001 C CNN
 F 1 "GNDD" H 3170 3075 50  0000 C CNN
 F 2 "" H 3170 3200 50  0001 C CNN
 F 3 "" H 3170 3200 50  0001 C CNN
@@ -1538,8 +577,6 @@ $EndComp
 Wire Wire Line
 	3170 3200 2880 3200
 Wire Wire Line
-	4080 6010 4090 6010
-Wire Wire Line
 	3360 8060 3360 8760
 Wire Wire Line
 	3360 5610 3360 6010
@@ -1548,43 +585,1042 @@ Wire Wire Line
 Wire Wire Line
 	1350 9950 1750 9950
 Wire Wire Line
-	1140 9750 1750 9750
-Wire Wire Line
-	3310 9850 3460 9850
-Wire Wire Line
 	7080 5930 7310 5930
+$Comp
+L power:+48V #PWR0102
+U 1 1 5D1A1071
+P 1050 9750
+F 0 "#PWR0102" H 1050 9600 50  0001 C CNN
+F 1 "+48V" H 1050 9890 50  0000 C CNN
+F 2 "" H 1050 9750 50  0001 C CNN
+F 3 "" H 1050 9750 50  0001 C CNN
+	1    1050 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-48V #PWR0103
+U 1 1 5D1A21C4
+P 1050 9950
+F 0 "#PWR0103" H 1050 10050 50  0001 C CNN
+F 1 "-48V" H 1050 10100 50  0000 C CNN
+F 2 "" H 1050 9950 50  0001 C CNN
+F 3 "" H 1050 9950 50  0001 C CNN
+	1    1050 9950
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	1140 9950 1350 9950
+	1350 9950 1350 9850
+$Comp
+L Device:R_Small_US R1
+U 1 1 5D248653
+P 1250 9850
+F 0 "R1" V 1340 9800 50  0000 C CNN
+F 1 "100" V 1420 9820 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" H 1250 9850 50  0001 C CNN
+F 3 "~" H 1250 9850 50  0001 C CNN
+	1    1250 9850
+	0    1    1    0   
+$EndComp
+Connection ~ 1350 9850
 Wire Wire Line
-	3730 3950 3730 5330
+	1050 9750 1750 9750
 Wire Wire Line
-	4670 4120 5550 4120
+	1150 9850 1050 9850
 Wire Wire Line
-	5460 6140 5460 6720
-Wire Wire Line
-	4490 8290 4490 8390
+	1050 9850 1050 9950
+$Comp
+L Device:R_Small_US R2
+U 1 1 5D271793
+P 7530 7210
+F 0 "R2" V 7620 7160 50  0000 C CNN
+F 1 "100" V 7700 7180 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" H 7530 7210 50  0001 C CNN
+F 3 "~" H 7530 7210 50  0001 C CNN
+	1    7530 7210
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	3820 4120 3820 8290
 Wire Wire Line
-	3960 4420 3960 8490
+	4080 6010 4090 6010
 Wire Wire Line
-	4030 3890 4030 7670
+	4090 1590 4090 1410
 Wire Wire Line
-	5750 6140 6030 6140
+	4090 1410 4510 1410
 Wire Wire Line
-	5750 5840 6030 5840
+	4510 1410 4510 1350
 Wire Wire Line
-	4090 6400 4090 6740
+	4510 1350 5550 1350
+Wire Wire Line
+	4490 1590 4510 1590
+Wire Wire Line
+	4510 1590 4510 1450
+Wire Wire Line
+	4510 1450 5550 1450
+Wire Wire Line
+	4490 1250 5550 1250
+Wire Wire Line
+	4490 1940 4490 1770
+Wire Wire Line
+	4490 1770 4710 1770
+Wire Wire Line
+	4710 1770 4710 1550
+Wire Wire Line
+	4710 1550 5550 1550
+Wire Wire Line
+	4490 2290 4540 2290
+Wire Wire Line
+	4540 2290 4540 1820
+Wire Wire Line
+	4540 1820 4760 1820
+Wire Wire Line
+	4760 1820 4760 1650
+Wire Wire Line
+	4760 1650 5550 1650
+Wire Wire Line
+	4490 2630 4670 2630
+Wire Wire Line
+	4670 2630 4670 1870
+Wire Wire Line
+	4670 1870 4830 1870
+Wire Wire Line
+	4830 1870 4830 1750
+Wire Wire Line
+	4830 1750 5550 1750
+Wire Wire Line
+	4490 2970 4900 2970
+Wire Wire Line
+	4900 2970 4900 1850
+Wire Wire Line
+	4900 1850 5550 1850
+Wire Wire Line
+	4490 3310 4980 3310
+Wire Wire Line
+	4980 3310 4980 2350
+Wire Wire Line
+	4980 2350 5550 2350
+Wire Wire Line
+	4490 3650 5070 3650
+Wire Wire Line
+	5070 3650 5070 2750
+Wire Wire Line
+	5070 2750 5550 2750
+Wire Wire Line
+	4090 1250 4030 1250
+Wire Wire Line
+	4030 1940 4090 1940
+Wire Wire Line
+	3960 4420 5550 4420
+Wire Wire Line
+	3960 3310 4090 3310
+Wire Wire Line
+	5550 4320 4830 4320
+Wire Wire Line
+	5220 4220 5550 4220
+Wire Wire Line
+	4030 3890 5220 3890
+Wire Wire Line
+	5220 3890 5220 4220
+Wire Wire Line
+	4030 1250 4030 1940
+Connection ~ 4030 1940
+Wire Wire Line
+	4090 4460 5550 4460
+Wire Wire Line
+	5550 4460 5550 4520
+Wire Wire Line
+	4490 4640 4490 4620
+Wire Wire Line
+	4490 4620 5550 4620
+Wire Wire Line
+	4490 4990 4490 4720
+Wire Wire Line
+	4490 4720 5550 4720
+Wire Wire Line
+	4490 5330 4930 5330
+Wire Wire Line
+	4930 5330 4930 4820
+Wire Wire Line
+	4930 4820 5550 4820
+Wire Wire Line
+	4090 5670 4090 5480
+Wire Wire Line
+	4090 5480 4990 5480
+Wire Wire Line
+	4990 5480 4990 4920
+Wire Wire Line
+	4990 4920 5550 4920
+Wire Wire Line
+	4490 5670 5050 5670
+Wire Wire Line
+	5050 5670 5050 5020
+Wire Wire Line
+	4080 6010 4080 5830
+Wire Wire Line
+	4080 5830 5110 5830
+Wire Wire Line
+	5110 5830 5110 5120
+Wire Wire Line
+	5110 5120 5550 5120
+Wire Wire Line
+	4490 6010 5170 6010
+Wire Wire Line
+	5170 6010 5170 5220
+Wire Wire Line
+	5170 5220 5550 5220
+Wire Wire Line
+	5230 5020 5230 6180
+Wire Wire Line
+	5230 6180 4090 6180
 Wire Wire Line
 	5230 5020 5550 5020
 Wire Wire Line
-	4090 4640 4090 4990
+	5050 5020 5230 5020
+Connection ~ 5230 5020
+Wire Wire Line
+	5550 5320 5290 5320
+Wire Wire Line
+	5290 5320 5290 6400
+Wire Wire Line
+	5290 6400 4490 6400
+Wire Wire Line
+	4090 7230 4090 7010
+Wire Wire Line
+	4090 7010 4650 7010
+Wire Wire Line
+	5370 6640 5370 5420
+Wire Wire Line
+	5370 5420 5550 5420
+Wire Wire Line
+	5550 5840 5550 5620
+Wire Wire Line
+	5460 5520 5550 5520
+Wire Wire Line
+	4030 7670 4090 7670
 Wire Wire Line
 	4030 1940 4030 3890
 Wire Wire Line
+	4030 3890 4030 7670
+Connection ~ 4030 3890
+Wire Wire Line
+	4490 7670 5140 7670
+Wire Wire Line
+	5140 7670 5140 6990
+Wire Wire Line
+	5140 6990 5550 6990
+Wire Wire Line
+	4490 8490 5550 8490
+Wire Wire Line
+	3960 8490 4090 8490
+Wire Wire Line
+	3960 4420 3960 8490
+Wire Wire Line
+	3960 3310 3960 4420
+Connection ~ 3960 4420
+Wire Wire Line
+	3820 4120 4090 4120
+Wire Wire Line
+	4490 8390 5550 8390
+Wire Wire Line
+	3820 8290 4490 8290
+Wire Wire Line
+	4490 8290 4490 8390
+Wire Wire Line
+	4490 8170 4490 8290
+Connection ~ 4490 8290
+Wire Wire Line
+	5140 7920 5140 8290
+Wire Wire Line
+	5140 8290 5550 8290
+Wire Wire Line
+	4090 8070 4090 7920
+Wire Wire Line
+	4090 7920 5140 7920
+Wire Wire Line
+	4090 3650 3820 3650
+Connection ~ 3820 4120
+Wire Wire Line
+	3820 3650 3820 4120
+Wire Wire Line
+	5240 7970 4490 7970
+Wire Wire Line
+	5240 6720 5240 7970
+Wire Wire Line
+	5460 6720 5240 6720
+Wire Wire Line
+	5460 6140 5460 6720
+Wire Wire Line
+	5460 5520 5460 6140
+Connection ~ 5460 6140
+Wire Wire Line
+	3730 5330 4090 5330
+Wire Wire Line
+	3730 2970 4090 2970
+Wire Wire Line
+	4670 4120 4670 3950
+Wire Wire Line
+	4670 4120 5550 4120
+Wire Wire Line
+	4490 4120 4670 4120
+Connection ~ 4670 4120
+Wire Wire Line
+	4670 3950 3730 3950
+Wire Wire Line
+	3730 3950 3730 5330
+Wire Wire Line
+	3730 2970 3730 3950
+Connection ~ 3730 3950
+Wire Wire Line
+	4490 7130 4980 7130
+Wire Wire Line
+	4980 7130 4980 6640
+Wire Wire Line
+	4980 6640 5370 6640
+Wire Wire Line
+	4650 7010 4650 6640
+Wire Wire Line
+	4650 6640 4490 6640
+Text Notes 5480 6260 0    60   ~ 0
+KEYBOARD RESTORE MAGNETS
+Text Notes 5550 8090 2    60   ~ 0
+NOTE 3
+Text Label 5550 8190 2    60   ~ 0
+B9
+Text Label 5550 7190 2    60   ~ 0
+B11
+Text Label 5550 7090 2    60   ~ 0
+B12
+Text Label 5550 7990 2    60   ~ 0
+B7
+Text Label 5550 7890 2    60   ~ 0
+B6
+Text Label 5550 7790 2    60   ~ 0
+B5
+Text Label 5550 7690 2    60   ~ 0
+B4
+Text Label 5550 7590 2    60   ~ 0
+B3
+Text Label 5550 7490 2    60   ~ 0
+B2
+Text Label 5550 7390 2    60   ~ 0
+B1
+Text Label 5550 7290 2    60   ~ 0
+B0
+Text Notes 4580 8060 0    60   ~ 0
+NOTE 2
+$Comp
+L converter-rescue:SW_SPDT SW26
+U 1 1 5CB44307
+P 4290 8070
+F 0 "SW26" H 4290 8240 50  0000 C CNN
+F 1 "ERROR RESET" H 4290 7870 50  0000 L CNN
+F 2 "" H 4290 8070 50  0001 C CNN
+F 3 "" H 4290 8070 50  0001 C CNN
+	1    4290 8070
+	1    0    0    1   
+$EndComp
+$Comp
+L converter-rescue:SW_SPST SW27
+U 1 1 5CB44300
+P 4290 8490
+F 0 "SW27" H 4290 8615 50  0000 C CNN
+F 1 "BAIL 9" H 4290 8390 50  0000 L CNN
+F 2 "" H 4290 8490 50  0001 C CNN
+F 3 "" H 4290 8490 50  0001 C CNN
+	1    4290 8490
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_SPST SW25
+U 1 1 5CB442F9
+P 4290 7670
+F 0 "SW25" H 4290 7795 50  0000 C CNN
+F 1 "SPACE LATCH" H 4290 7570 50  0000 L CNN
+F 2 "" H 4290 7670 50  0001 C CNN
+F 3 "" H 4290 7670 50  0001 C CNN
+	1    4290 7670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 6140 6030 6140
+Wire Wire Line
+	5460 6140 5750 6140
+Connection ~ 5750 6140
+Wire Wire Line
+	5750 5840 6030 5840
+Wire Wire Line
+	5550 5840 5750 5840
+Connection ~ 5750 5840
+$Comp
+L Device:Electromagnetic_Actor L1
+U 1 1 5CB442F2
+P 5750 6040
+F 0 "L1" H 5800 6190 50  0000 L CNN
+F 1 "LEFT" H 5800 5990 50  0000 L CNN
+F 2 "" V 5725 6140 50  0001 C CNN
+F 3 "" V 5725 6140 50  0001 C CNN
+	1    5750 6040
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Electromagnetic_Actor L2
+U 1 1 5CB442EB
+P 6030 6040
+F 0 "L2" H 6080 6190 50  0000 L CNN
+F 1 "RIGHT" H 6080 5990 50  0000 L CNN
+F 2 "" V 6005 6140 50  0001 C CNN
+F 3 "" V 6005 6140 50  0001 C CNN
+	1    6030 6040
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4490 7330
+$Comp
+L converter-rescue:SW_SPDT SW24
+U 1 1 5CB442E3
+P 4290 7230
+F 0 "SW24" H 4290 7400 50  0000 C CNN
+F 1 "MULTI PCH (INBOARD)" H 4290 7030 50  0000 L CNN
+F 2 "" H 4290 7230 50  0001 C CNN
+F 3 "" H 4290 7230 50  0001 C CNN
+	1    4290 7230
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4490 6840
+$Comp
+L converter-rescue:SW_SPDT SW23
+U 1 1 5CB442DB
+P 4290 6740
+F 0 "SW23" H 4290 6910 50  0000 C CNN
+F 1 "NUMERIC" H 4290 6540 50  0000 L CNN
+F 2 "" H 4290 6740 50  0001 C CNN
+F 3 "" H 4290 6740 50  0001 C CNN
+	1    4290 6740
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4090 6400 4090 6740
+Wire Wire Line
+	4090 6180 4090 6400
+Connection ~ 4090 6400
+$Comp
+L converter-rescue:SW_SPST SW22
+U 1 1 5CB442D4
+P 4290 6400
+F 0 "SW22" H 4290 6525 50  0000 C CNN
+F 1 "ALPHA" H 4290 6300 50  0000 L CNN
+F 2 "" H 4290 6400 50  0001 C CNN
+F 3 "" H 4290 6400 50  0001 C CNN
+	1    4290 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_SPST SW21
+U 1 1 5CB442CD
+P 4290 6010
+F 0 "SW21" H 4290 6135 50  0000 C CNN
+F 1 "MULTI PCH (OUTBOUND)" H 4290 5910 50  0000 L CNN
+F 2 "" H 4290 6010 50  0001 C CNN
+F 3 "" H 4290 6010 50  0001 C CNN
+	1    4290 6010
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_SPST SW20
+U 1 1 5CB442C6
+P 4290 5670
+F 0 "SW20" H 4290 5795 50  0000 C CNN
+F 1 "DUP" H 4290 5570 50  0000 L CNN
+F 2 "" H 4290 5670 50  0001 C CNN
+F 3 "" H 4290 5670 50  0001 C CNN
+	1    4290 5670
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_SPST SW19
+U 1 1 5CB442BF
+P 4290 5330
+F 0 "SW19" H 4290 5455 50  0000 C CNN
+F 1 "PROG 2" H 4290 5230 50  0000 L CNN
+F 2 "" H 4290 5330 50  0001 C CNN
+F 3 "" H 4290 5330 50  0001 C CNN
+	1    4290 5330
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_SPST SW18
+U 1 1 5CB442B8
+P 4290 4990
+F 0 "SW18" H 4290 5115 50  0000 C CNN
+F 1 "REGISTER LATCH" H 4290 4890 50  0000 L CNN
+F 2 "" H 4290 4990 50  0001 C CNN
+F 3 "" H 4290 4990 50  0001 C CNN
+	1    4290 4990
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4090 4640 4090 4990
+Wire Wire Line
+	4090 4460 4090 4640
+Connection ~ 4090 4640
+$Comp
+L converter-rescue:SW_SPST SW17
+U 1 1 5CB442B1
+P 4290 4640
+F 0 "SW17" H 4290 4765 50  0000 C CNN
+F 1 "FEED" H 4290 4540 50  0000 L CNN
+F 2 "" H 4290 4640 50  0001 C CNN
+F 3 "" H 4290 4640 50  0001 C CNN
+	1    4290 4640
+	1    0    0    -1  
+$EndComp
+Text Label 4840 4320 0    60   ~ 0
+VALPHA
+Text Label 4840 4420 0    60   ~ 0
+VNUMERIC
+Text Label 4830 3890 0    60   ~ 0
+VCOMMON
+$Comp
+L converter-rescue:SW_SPST SW16
+U 1 1 5CB442A7
+P 4290 4120
+F 0 "SW16" H 4290 4245 50  0000 C CNN
+F 1 "RESTORE BAIL CONTACT" H 4290 4020 50  0000 L CNN
+F 2 "" H 4290 4120 50  0001 C CNN
+F 3 "" H 4290 4120 50  0001 C CNN
+	1    4290 4120
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_SPST SW15
+U 1 1 5CB442A0
+P 4290 3650
+F 0 "SW15" H 4290 3775 50  0000 C CNN
+F 1 "REL" H 4290 3550 50  0000 L CNN
+F 2 "" H 4290 3650 50  0001 C CNN
+F 3 "" H 4290 3650 50  0001 C CNN
+	1    4290 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_SPST SW14
+U 1 1 5CB44299
+P 4290 3310
+F 0 "SW14" H 4290 3435 50  0000 C CNN
+F 1 "LATCH 30" H 4290 3210 50  0000 L CNN
+F 2 "" H 4290 3310 50  0001 C CNN
+F 3 "" H 4290 3310 50  0001 C CNN
+	1    4290 3310
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_SPST SW13
+U 1 1 5CB44292
+P 4290 2970
+F 0 "SW13" H 4290 3095 50  0000 C CNN
+F 1 "PROG 1" H 4290 2870 50  0000 L CNN
+F 2 "" H 4290 2970 50  0001 C CNN
+F 3 "" H 4290 2970 50  0001 C CNN
+	1    4290 2970
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_SPST SW12
+U 1 1 5CB4428B
+P 4290 2630
+F 0 "SW12" H 4290 2755 50  0000 C CNN
+F 1 "BAIL 8" H 4290 2530 50  0000 L CNN
+F 2 "" H 4290 2630 50  0001 C CNN
+F 3 "" H 4290 2630 50  0001 C CNN
+	1    4290 2630
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5550 2450
+NoConn ~ 5550 2150
+NoConn ~ 5550 2050
+NoConn ~ 5550 1950
+Wire Wire Line
 	4090 2290 4090 2630
+Wire Wire Line
+	4090 1940 4090 2290
+Connection ~ 4090 2290
+$Comp
+L converter-rescue:SW_SPST SW11
+U 1 1 5CB44280
+P 4290 2290
+F 0 "SW11" H 4290 2415 50  0000 C CNN
+F 1 "AUX DUP" H 4290 2190 50  0000 L CNN
+F 2 "" H 4290 2290 50  0001 C CNN
+F 3 "" H 4290 2290 50  0001 C CNN
+	1    4290 2290
+	1    0    0    -1  
+$EndComp
+Connection ~ 4090 1940
+$Comp
+L converter-rescue:SW_SPST SW10
+U 1 1 5CB44279
+P 4290 1940
+F 0 "SW10" H 4290 2065 50  0000 C CNN
+F 1 "MC" H 4290 1840 50  0000 L CNN
+F 2 "" H 4290 1940 50  0001 C CNN
+F 3 "" H 4290 1940 50  0001 C CNN
+	1    4290 1940
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_SPST SW9
+U 1 1 5CB44272
+P 4290 1590
+F 0 "SW9" H 4290 1715 50  0000 C CNN
+F 1 "LEFT ZERO" H 4290 1490 50  0000 L CNN
+F 2 "" H 4290 1590 50  0001 C CNN
+F 3 "" H 4290 1590 50  0001 C CNN
+	1    4290 1590
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_SPST SW8
+U 1 1 5CB4426B
+P 4290 1250
+F 0 "SW8" H 4290 1375 50  0000 C CNN
+F 1 "SKIP" H 4290 1150 50  0000 L CNN
+F 2 "" H 4290 1250 50  0001 C CNN
+F 3 "" H 4290 1250 50  0001 C CNN
+	1    4290 1250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5550 8090
+$Comp
+L converter-rescue:Conn_01x16_Male J13
+U 1 1 5CB44263
+P 5750 7690
+F 0 "J13" H 5750 8490 50  0000 C CNN
+F 1 "A04" H 5750 6790 50  0000 C CNN
+F 2 "" H 5750 7690 50  0001 C CNN
+F 3 "" H 5750 7690 50  0001 C CNN
+	1    5750 7690
+	-1   0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:Conn_01x16_Male J12
+U 1 1 5CB4425C
+P 5750 4820
+F 0 "J12" H 5750 5620 50  0000 C CNN
+F 1 "A03" H 5750 3920 50  0000 C CNN
+F 2 "" H 5750 4820 50  0001 C CNN
+F 3 "" H 5750 4820 50  0001 C CNN
+	1    5750 4820
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 5550 2250
+NoConn ~ 5550 2550
+NoConn ~ 5550 2650
+$Comp
+L converter-rescue:Conn_01x16_Male J11
+U 1 1 5CB44252
+P 5750 1950
+F 0 "J11" H 5750 2750 50  0000 C CNN
+F 1 "A02" H 5750 1050 50  0000 C CNN
+F 2 "" H 5750 1950 50  0001 C CNN
+F 3 "" H 5750 1950 50  0001 C CNN
+	1    5750 1950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6770 1350 6320 1350
+Text Label 6320 2350 0    60   ~ 0
+DASH_SKIP
+Text Label 6320 1850 0    60   ~ 0
+PROG_1
+Text Label 6320 1750 0    60   ~ 0
+BAIL_8
+Text Label 6320 1650 0    60   ~ 0
+AUX_DUP
+Text Label 6320 1550 0    60   ~ 0
+MC
+Text Label 6320 1450 0    60   ~ 0
+LEFT_ZERO
+Text Label 6320 1250 0    60   ~ 0
+SKIP
+Text Label 6320 2750 0    60   ~ 0
+REL
+$Comp
+L power:+5VD #PWR05
+U 1 1 5C16A060
+P 6770 1350
+F 0 "#PWR05" H 6770 1200 50  0001 C CNN
+F 1 "+5VD" H 6770 1490 50  0000 C CNN
+F 2 "" H 6770 1350 50  0001 C CNN
+F 3 "" H 6770 1350 50  0001 C CNN
+	1    6770 1350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6320 1950
+NoConn ~ 6320 2050
+NoConn ~ 6320 2150
+NoConn ~ 6320 2450
+NoConn ~ 6320 2650
+NoConn ~ 6320 2550
+NoConn ~ 6320 2250
+$Comp
+L converter-rescue:Conn_01x16_Female J4
+U 1 1 5C13C151
+P 6120 1950
+F 0 "J4" H 6120 2750 50  0000 C CNN
+F 1 "A02" H 6120 1050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x16_Pitch2.54mm" H 6120 1950 50  0001 C CNN
+F 3 "" H 6120 1950 50  0001 C CNN
+	1    6120 1950
+	-1   0    0    -1  
+$EndComp
+Text Label 6190 6990 0    60   ~ 0
+SPACE
+Text Label 6190 8490 0    60   ~ 0
+BAIL_9
+Text Label 6190 8290 0    60   ~ 0
+ERROR_RESET
+Text Label 6190 7090 0    60   ~ 0
+C12
+Text Label 6190 7190 0    60   ~ 0
+C11
+Text Label 6190 8190 0    60   ~ 0
+C9
+Text Label 6190 7990 0    60   ~ 0
+C7
+Text Label 6190 7890 0    60   ~ 0
+C6
+Text Label 6190 7790 0    60   ~ 0
+C5
+Text Label 6190 7690 0    60   ~ 0
+C4
+Text Label 6190 7590 0    60   ~ 0
+C3
+Text Label 6190 7490 0    60   ~ 0
+C2
+Text Label 6190 7390 0    60   ~ 0
+C1
+Text Label 6190 7290 0    60   ~ 0
+C0
+NoConn ~ 6190 8090
+$Comp
+L converter-rescue:Conn_01x16_Female J1
+U 1 1 5C13E2F4
+P 5990 7690
+F 0 "J1" H 5990 8490 50  0000 C CNN
+F 1 "A04" H 5990 6790 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x16_Pitch2.54mm" H 5990 7690 50  0001 C CNN
+F 3 "" H 5990 7690 50  0001 C CNN
+	1    5990 7690
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:-48V #PWR0104
+U 1 1 5CB40192
+P 7610 8830
+F 0 "#PWR0104" H 7610 8930 50  0001 C CNN
+F 1 "-48V" H 7610 8980 50  0000 C CNN
+F 2 "" H 7610 8830 50  0001 C CNN
+F 3 "" H 7610 8830 50  0001 C CNN
+	1    7610 8830
+	-1   0    0    1   
+$EndComp
+$Comp
+L converter-rescue:Screw_Terminal_01x02 J7
+U 1 1 5CB2A17F
+P 7410 8730
+F 0 "J7" H 7410 8830 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" V 7520 8680 50  0000 C CNN
+F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_2pol" H 7410 8730 50  0001 C CNN
+F 3 "" H 7410 8730 50  0001 C CNN
+	1    7410 8730
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7040 8390 6190 8390
+$Comp
+L power:+48V #PWR011
+U 1 1 5C197B69
+P 7610 8730
+F 0 "#PWR011" H 7610 8580 50  0001 C CNN
+F 1 "+48V" H 7610 8870 50  0000 C CNN
+F 2 "" H 7610 8730 50  0001 C CNN
+F 3 "" H 7610 8730 50  0001 C CNN
+	1    7610 8730
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VD #PWR010
+U 1 1 5C1846C7
+P 7040 8390
+F 0 "#PWR010" H 7040 8240 50  0001 C CNN
+F 1 "+5VD" H 7040 8530 50  0000 C CNN
+F 2 "" H 7040 8390 50  0001 C CNN
+F 3 "" H 7040 8390 50  0001 C CNN
+	1    7040 8390
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1830 6410 1990 6410
+Wire Wire Line
+	1830 7320 1830 6410
+Wire Wire Line
+	1270 7320 1830 7320
+Wire Wire Line
+	840  7200 1550 7200
+Wire Wire Line
+	1790 6310 1990 6310
+Wire Wire Line
+	1790 6840 1790 6310
+Wire Wire Line
+	1270 6840 1790 6840
+Wire Wire Line
+	1750 6210 1990 6210
+Wire Wire Line
+	1750 6710 1750 6210
+Wire Wire Line
+	840  6710 1750 6710
+Wire Wire Line
+	1660 6010 1990 6010
+Wire Wire Line
+	1660 6380 1660 6010
+Wire Wire Line
+	840  6380 1660 6380
+Wire Wire Line
+	1700 6110 1990 6110
+Wire Wire Line
+	1700 6550 1700 6110
+Wire Wire Line
+	1270 6550 1700 6550
+Wire Wire Line
+	1610 5910 1990 5910
+Wire Wire Line
+	1610 6210 1610 5910
+Wire Wire Line
+	1270 6210 1610 6210
+Wire Wire Line
+	1580 5810 1990 5810
+Wire Wire Line
+	1580 6110 1580 5810
+Wire Wire Line
+	840  6110 1580 6110
+Wire Wire Line
+	1530 5710 1990 5710
+Wire Wire Line
+	1530 6010 1530 5710
+Wire Wire Line
+	1270 6010 1530 6010
+Wire Wire Line
+	1500 5610 1990 5610
+Wire Wire Line
+	1500 5860 1500 5610
+Wire Wire Line
+	840  5860 1500 5860
+Wire Wire Line
+	840  6010 840  5860
+Wire Wire Line
+	870  6010 840  6010
+Wire Wire Line
+	840  5590 870  5590
+Wire Wire Line
+	1450 5510 1990 5510
+Wire Wire Line
+	1450 5690 1450 5510
+Wire Wire Line
+	1270 5690 1450 5690
+Wire Wire Line
+	1450 5410 1990 5410
+Wire Wire Line
+	1450 5490 1450 5410
+Wire Wire Line
+	1270 5490 1450 5490
+Wire Wire Line
+	840  5210 880  5210
+Wire Wire Line
+	840  5370 840  5590
+Wire Wire Line
+	840  5210 840  5370
+Connection ~ 840  5370
+Wire Wire Line
+	840  5370 1690 5370
+Wire Wire Line
+	1280 5210 1990 5210
+Wire Wire Line
+	840  6110 840  6210
+Wire Wire Line
+	840  6210 870  6210
+Wire Wire Line
+	840  6380 840  6550
+Wire Wire Line
+	840  6550 870  6550
+Wire Wire Line
+	840  6710 840  6940
+Wire Wire Line
+	840  6940 870  6940
+Wire Wire Line
+	840  7420 870  7420
+Wire Wire Line
+	840  8760 1990 8760
 Wire Wire Line
 	840  7420 840  8760
 Wire Wire Line
-	840  5370 840  5590
+	840  7200 840  7420
+Connection ~ 840  7420
+Wire Wire Line
+	1550 7200 1550 7040
+Wire Wire Line
+	1550 7040 1270 7040
+Wire Wire Line
+	1690 5370 1690 5310
+Wire Wire Line
+	1690 5310 1990 5310
+Wire Wire Line
+	870  8070 870  7910
+Wire Wire Line
+	870  7910 1790 7910
+Wire Wire Line
+	1790 7910 1790 8060
+Wire Wire Line
+	1790 8060 1990 8060
+Wire Wire Line
+	1270 8070 1730 8070
+Wire Wire Line
+	1730 8070 1730 8160
+Wire Wire Line
+	1730 8160 1990 8160
+Wire Wire Line
+	870  8270 870  8160
+Wire Wire Line
+	870  8160 1650 8160
+Wire Wire Line
+	1650 8160 1650 8260
+Wire Wire Line
+	1650 8260 1990 8260
+Wire Wire Line
+	1270 8270 1570 8270
+Wire Wire Line
+	1570 8270 1570 8310
+Wire Wire Line
+	1570 8310 1990 8310
+Wire Wire Line
+	1990 8310 1990 8360
+$Comp
+L converter-rescue:SW_DPST SW6
+U 1 1 5CB4424B
+P 1070 8170
+F 0 "SW6" H 1070 8370 50  0000 C CNN
+F 1 "INTERPRET PUNCH" H 1070 7970 50  0000 L CNN
+F 2 "" H 1070 8170 50  0001 C CNN
+F 3 "" H 1070 8170 50  0001 C CNN
+	1    1070 8170
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1270 7520
+NoConn ~ 1990 8460
+NoConn ~ 1990 8560
+NoConn ~ 1990 8660
+NoConn ~ 1990 8860
+NoConn ~ 1990 8960
+NoConn ~ 1990 9060
+NoConn ~ 1990 9160
+NoConn ~ 1990 7960
+NoConn ~ 1990 7860
+NoConn ~ 1990 7760
+NoConn ~ 1990 7660
+NoConn ~ 1990 6510
+NoConn ~ 1990 6610
+NoConn ~ 1990 6710
+$Comp
+L converter-rescue:Conn_01x16_Male J10
+U 1 1 5CB44235
+P 2190 8360
+F 0 "J10" H 2190 9160 50  0000 C CNN
+F 1 "B08" H 2190 7460 50  0000 C CNN
+F 2 "" H 2190 8360 50  0001 C CNN
+F 3 "" H 2190 8360 50  0001 C CNN
+	1    2190 8360
+	-1   0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_SPDT SW5
+U 1 1 5CB4422E
+P 1070 7420
+F 0 "SW5" H 1070 7590 50  0000 C CNN
+F 1 "LZ PRINT" H 1070 7220 50  0000 L CNN
+F 2 "" H 1070 7420 50  0001 C CNN
+F 3 "" H 1070 7420 50  0001 C CNN
+	1    1070 7420
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_SPDT SW4
+U 1 1 5CB44227
+P 1070 6940
+F 0 "SW4" H 1070 7110 50  0000 C CNN
+F 1 "PRINT" H 1070 6740 50  0000 L CNN
+F 2 "" H 1070 6940 50  0001 C CNN
+F 3 "" H 1070 6940 50  0001 C CNN
+	1    1070 6940
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_SPST SW3
+U 1 1 5CB44220
+P 1070 6550
+F 0 "SW3" H 1070 6675 50  0000 C CNN
+F 1 "CLEAR" H 1070 6450 50  0000 L CNN
+F 2 "" H 1070 6550 50  0001 C CNN
+F 3 "" H 1070 6550 50  0001 C CNN
+	1    1070 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_DPST SW2
+U 1 1 5CB44219
+P 1070 6110
+F 0 "SW2" H 1070 6310 50  0000 C CNN
+F 1 "AUTO DUP" H 1070 5910 50  0000 L CNN
+F 2 "" H 1070 6110 50  0001 C CNN
+F 3 "" H 1070 6110 50  0001 C CNN
+	1    1070 6110
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_SPDT SW1
+U 1 1 5CB44212
+P 1070 5590
+F 0 "SW1" H 1070 5760 50  0000 C CNN
+F 1 "PROG SEL" H 1070 5390 50  0000 L CNN
+F 2 "" H 1070 5590 50  0001 C CNN
+F 3 "" H 1070 5590 50  0001 C CNN
+	1    1070 5590
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:SW_SPST SW7
+U 1 1 5CB4420B
+P 1080 5210
+F 0 "SW7" H 1080 5335 50  0000 C CNN
+F 1 "AUTO FEED" H 1080 5110 50  0000 L CNN
+F 2 "" H 1080 5210 50  0001 C CNN
+F 3 "" H 1080 5210 50  0001 C CNN
+	1    1080 5210
+	1    0    0    -1  
+$EndComp
+$Comp
+L converter-rescue:Conn_01x16_Male J9
+U 1 1 5CB44204
+P 2190 5910
+F 0 "J9" H 2190 6710 50  0000 C CNN
+F 1 "A01" H 2190 5010 50  0000 C CNN
+F 2 "" H 2190 5910 50  0001 C CNN
+F 3 "" H 2190 5910 50  0001 C CNN
+	1    2190 5910
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 9840 3310 9840
+Wire Wire Line
+	3310 9840 3310 10050
+Connection ~ 3310 9840
+Wire Wire Line
+	3310 9840 3460 9840
 $EndSCHEMATC
